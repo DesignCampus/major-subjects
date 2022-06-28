@@ -1,0 +1,66 @@
+/** ========================================
+ * @GENERAL
+ * 全般
+ * ====================================== */
+/** --------------------
+ * カスタムプロパティ
+ * ------------------ */
+:root {
+	--color-primaly: #1AB1C4;/*26, 175, 196*/
+	--color-secondly: #1D5175;
+	--color-accent:  #FF2E1E;/*255, 46, 30*/
+	--color-white: #fff;
+	--color-black: #707070;
+	--font-sans: "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Arial", "游ゴシック", "Meiryo", "BIZ UDPGothic", sans-serif;
+	--font-serif: "Times New Roman", "Hiragino Mincho ProN", "YuMincho", "Yu Mincho", "MS PMincho", serif;
+}
+
+
+/** --------------------
+ * 全体
+ * ------------------ */
+html {
+	/* scroll-behavior: smooth; */
+}
+body {
+	color: var(--color-black);
+	font-family: var(--font-sans);
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1;
+	font-feature-settings: "palt" 1;
+}
+body,
+body * {
+	box-sizing: border-box;
+}
+
+img {
+	height: auto;
+}
+
+/* hoverに対応してるか */
+@media (hover: hover) and (pointer: fine) {
+	a:hover {
+		opacity: .5;
+	}
+}
+
+
+/** ========================================
+ * 補足
+ * :isと:where
+ * https://developer.mozilla.org/ja/docs/Web/CSS/:is
+ * https://developer.mozilla.org/ja/docs/Web/CSS/:where
+ * ====================================== */
+/* body main {
+	background-color: red;
+}
+
+:is(body) main {
+	background-color: green;
+}
+
+:where(body) main {
+	background-color: blue;
+} */

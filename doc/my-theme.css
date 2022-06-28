@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+    .reveal section:not([data-pdf-page-number="0"]) h2 {
+        padding:.5em;
+        background: #2E758C;
+        color: #fff;
+    }
+    .reveal h3 {
+        padding:.5em;
+        color: #2E758C;
+    }
+    .reveal h4 {
+        padding:.5em;
+        color: #2E758C;
+    }
+    .reveal h4::before {
+        content: "-";
+        display: inline-block;
+        margin-right: .5em;
+    }
+    .reveal h4::after {
+        content: "-";
+        display: inline-block;
+        margin-left: .5em;
+    }
+    .reveal li:not(:first-child) {
+        margin-top: .25em;
+    }
+
+
+        /*data-pdf-page-number="0"*/
+    /* .reveal h2 {color: red;}
+    body.reveal-viewport {
+        background: red;
+    } */

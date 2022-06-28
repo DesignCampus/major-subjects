@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*!
+ * File Info: コーディング教材
+*/
+
+@layer reset, common, layout, component;
+
+@import url(reset.css) layer(reset);
+@import url(common.css) layer(common);
+@import url(layout.css) layer(layout);
+@import url(component.css) layer(component);
+
+/** ========================================
+ * 補足
+ * カスケードレイヤーについて
+ * https://developer.mozilla.org/ja/docs/Web/CSS/@layer
+ * ====================================== */
+/* @layer cl1 {
+    body {
+        background-color: red;
+    }
+}
+@layer cl2 {
+    body {
+        background-color: blue;
+    }
+} */
