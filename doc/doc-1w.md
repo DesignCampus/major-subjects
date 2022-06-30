@@ -7,7 +7,7 @@ title: "コーディング 1w - HTML"
 ---
 
 # コーディング  ライブ授業
-##  1週目「HTML」
+## 1週目「HTML」
 <img src="./img/logo_bg_none.png" style="width: 16%;">
 
 ---
@@ -44,165 +44,109 @@ note:
 
 ---
 
-## 講師の自己紹介
+## 座学
 
 ---
 
-## ANY課題について
+### 今どきの制作
+
+フレームワーク
+CSS
+Tailwind
+https://tailwindcss.jp/
+
+Vue
+https://v3.ja.vuejs.org/
+
+React
+https://ja.reactjs.org/
+
+メタ言語・スーパーセット
+SCSS
+https://sass-lang.com/
+
+TypeScript
+https://www.typescriptlang.org/ja/
+
+
+データの管理
+https://github.co.jp/
+
 
 ---
 
-## アイスブレイク
+ホスティング
 
---
+Netlify
+https://www.netlify.com/
 
---
-
-- 新しいHTMLファイルを作って
-- 使っていいHTMLの要素は**3つまで**
-- CSSはHTMLファイルに直書き
-- 美味しそうになるように ← これ大事
-
-<span class="fragment" style="font-size: 1.6em;">10:20 まで</span>
-
---
-
-- 美味しそうなポイントは
-- どんな流れで作ったか
-- 苦労した点
+vercel
+https://vercel.com/
 
 ---
 
-## 制作の心構え
+### CMS
 
---
+WordPress
+https://wordpress.com/ja/
 
-- カンプや仕様書を見て作業前にHTML、CSSを考える（JSもね）
-- 動作の確認・デバッグは怠らない
-- 技術に関して、基本的にわからないことはググる、自分で調べる
+Local
+https://localwp.com/
 
-note:
- ← これができないと質問できない
-Copilotデモ
 
---
+microCMS
+https://microcms.io/
 
-### このサイトだけは覚えておこう
-
-#### Can I use  
-https://caniuse.com/
-
-#### MDN  
-https://developer.mozilla.org/ja/docs/Web
 
 ---
 
-## HTMLの話
+### ノーコード・ローコード
+Studio
+https://studio.design/ja
 
---
+Wix
+https://ja.wix.com/
 
-### HTMLとは何か
 
---
-
-文章に意味づけをする
-
---
-
-### アウトラインを理解する
-
---
-
-### LINT
-
-構文チェックをしよう
-
-#### W3C Markup Validation Service
-https://validator.w3.org/
 
 ---
 
-## 先週の宿題
+### 便利なツール
+Notion
+https://www.notion.so/
 
---
+Raindrop
+https://raindrop.io/
 
-### HTMLとCSS、考えられた？
+Prepros
+https://prepros.io/
+
+Visual Studio Code
+
+biscuit
+https://eatbiscuit.com/ja
+
+
+Sidekick
+https://www.meetsidekick.com/
 
 ---
 
-## 教材について
+### 情報のキャッチアップ
+Netvibes　RSSリーダー
+https://www.netvibes.com
+Google Discover
+Twitter
 
---
 
-### PC or SP
 
---
 
-### headタグ
-
---
-
-### 命名
-
---
-
-### h1タグ
-
---
-
-### 各sectionについて
-
---
-
-### imgタグ
-
-- サイズ
-- alt
-- loading属性とdecoding属性
-
---
-
-### form
-
---
-
-いろいろな部品があります
-
---
-
-#### formタグ
-- action … データの送信先
-- Method … どんな方法で
-    * GET：データ頂戴
-    * POST：このデータ見て処理をして
-
---
-
-#### 他にも便利な機能がある
-
-- placeholder
-- バリデーション
-    * required
-    * pattern
-
---
-
-### モーダルウィンドウ
-
---
-
-- data属性
-- 閉じるボタンはどう作る？
-- timeタグ
 
 ---
 
 ## 実習
 
---
-
-[Fade]
-<span style="font-size: 1.6em;">11:45 まで</span>
+自分のお気に入りサービスを見つけて、3分で紹介
 
 ---
 
@@ -212,7 +156,7 @@ https://validator.w3.org/
 
 ### 課題
 
-HTMLを完成させる！
+
 <p style="font-size: .8em;">※どうしてもだめなら教材のソースを使ってください</p>
 
 --
