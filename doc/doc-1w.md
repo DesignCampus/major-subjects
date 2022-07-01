@@ -3,150 +3,274 @@ theme: "simple"
 customTheme : "my-theme"
 transition: "convex"
 slideNumber: false
-title: "コーディング 1w - HTML"
+title: "コーディング 2nd Season 1w - HTML"
 ---
 
-# コーディング  ライブ授業
+# コーディング  2nd Season
 ## 1週目「HTML」
 <img src="./img/logo_bg_none.png" style="width: 16%;">
 
 ---
 
-1. 自己紹介
-1. ANY課題について
-1. アイスブレイク
-1. 制作の心構え
-1. HTMLの話
-1. 先週の宿題
-1. 教材について
+1. 受講生MTG
+1. はじめに
+1. 座学
 1. 実習
-1. 課題と来週の話
+1. 講師FB
+1. まとめ
+1. 受講生MTG
 
 note:
-05分＞生徒の打ち合わせ
-05分＞イントロ
-40分＞座学
-40分＞作業
-15分＞FB
-10分＞締め
-05分＞生徒の打ち合わせ
-10:00～10:05 自己紹介
-10:05～10:10 ANY課題について
-10:10～10:20 アイスブレイク
-10:20～10:30 アイスブレイクの発表
-10:30～10:35 制作の心構え
-10:35～10:45 HTMLの話
-10:45～10:50 休憩
-10:50～11:00 先週の宿題
-11:00～11:15 教材について
-11:15～11:45 実習
-11:45～12:00 課題と来週の話
+13:30～13:35 05分＞生徒の打ち合わせ
+13:35～13:40 05分＞イントロ
+13:40～14:05 35分＞座学
+14:05～14:10 05分＞座学
+14:10～14:50 40分＞作業
+14:50～15:05 15分＞FB
+15:05～15:25 10分＞締め
+15:25～15:30 05分＞生徒の打ち合わせ
 
 ---
 
-## 座学
+## はじめに
+
+--
+
+いつもなら課題出したり、雑談したりですが・・・
+
+--
+
+今回はまず「クライアントワーク課題」について
+
+--
+
+### 役割分担を決めよう
+
+--
+
+**例1**  
+- HTML
+- CSS
+- JS
+
+**例2**  
+- トップページ
+- 下層ページ
+- フォーム
 
 ---
 
-### 今どきの制作
+座学の時間
+## 今どきのWeb制作
 
-フレームワーク
-CSS
-Tailwind
+---
+
+### 制作技術
+
+---
+
+#### フレームワーク
+
+--
+
+**CSS**  
+
+Tailwind  
 https://tailwindcss.jp/
 
-Vue
+--
+
+**UI(JavaScript)**  
+
+Vue.js  
 https://v3.ja.vuejs.org/
 
-React
+React  
 https://ja.reactjs.org/
-
-メタ言語・スーパーセット
-SCSS
-https://sass-lang.com/
-
-TypeScript
-https://www.typescriptlang.org/ja/
-
-
-データの管理
-https://github.co.jp/
-
 
 ---
 
-ホスティング
+#### メタ言語・スーパーセット
 
-Netlify
+--
+
+SASS(SCSS)  
+https://sass-lang.com/
+
+TypeScript  
+https://www.typescriptlang.org/ja/
+
+---
+
+#### データの管理
+
+--
+
+Github  
+https://github.co.jp/
+
+---
+
+### ホスティング
+
+--
+
+Netlify  
 https://www.netlify.com/
 
-vercel
+vercel  
 https://vercel.com/
 
 ---
 
 ### CMS
 
-WordPress
+--
+
+WordPress  
 https://wordpress.com/ja/
 
-Local
-https://localwp.com/
-
-
-microCMS
+microCMS  
 https://microcms.io/
-
 
 ---
 
 ### ノーコード・ローコード
-Studio
+
+--
+
+Studio  
 https://studio.design/ja
 
-Wix
+Wix  
 https://ja.wix.com/
 
+---
 
+### 技術採用例
+
+--
+
+**Tailwind**  
+
+- LIG  
+https://liginc.co.jp/
+
+- パンテーン公式サイト  
+https://pantene.jp/ja-jp
+
+- 日清食品グループ 採用情報サイト  
+https://www.nissin.com/jp/recruit/
+
+--
+
+**Vue.js**  
+
+- ミツカン ZENB  
+https://zenb.jp/
+
+- マイニンテンドー  
+https://my.nintendo.com/
+
+- 博報堂  
+https://www.hakuhodo.co.jp/
+
+--
+
+**React**  
+
+- Facebook  
+https://www.facebook.com/
+
+- Netflix  
+https://www.netflix.com/
+
+- abema TV  
+https://abema.tv/
 
 ---
 
 ### 便利なツール
-Notion
-https://www.notion.so/
 
-Raindrop
-https://raindrop.io/
+--
 
-Prepros
+#### エディタ
+
+Visual Studio Code  
+https://azure.microsoft.com/ja-jp/products/visual-studio-code/
+
+--
+
+#### コンパイラ
+
+Prepros  
 https://prepros.io/
 
-Visual Studio Code
+--
 
-biscuit
+#### 開発環境
+
+Local  
+https://localwp.com/
+
+-- 
+
+#### メモツール・ナレッジベース
+
+Notion  
+https://www.notion.so/
+
+--
+
+#### ブックマーク
+
+Raindrop  
+https://raindrop.io/
+
+--
+
+#### Webサービスを使いやすく
+
+biscuit  
 https://eatbiscuit.com/ja
 
-
-Sidekick
+Sidekick  
 https://www.meetsidekick.com/
+
+--
+
+#### 差分抽出に
+
+SCONE Diff  
+https://sconeapp.com/diff/
 
 ---
 
 ### 情報のキャッチアップ
-Netvibes　RSSリーダー
+
+--
+
+Netvibes  
 https://www.netvibes.com
+
 Google Discover
+
 Twitter
-
-
-
-
 
 ---
 
 ## 実習
 
-自分のお気に入りサービスを見つけて、3分で紹介
+--
+
+### 自分の作るものを発表！
+
+--
+
+- どんな動きをするものか
+- それを作ろうと思った理由
+- 不安な点
+- 作るために聞いておきたいこと
 
 ---
 
@@ -154,15 +278,20 @@ Twitter
 
 --
 
-### 課題
-
-
-<p style="font-size: .8em;">※どうしてもだめなら教材のソースを使ってください</p>
+自分のお気に入りサービスを見つけて、3分で紹介
 
 --
 
 ### 予告
 
-次週、CSS回は伝えたいことがたくさんある  
-🍳とか作ってる暇がない…orz
+次週からは、大枠では
+
+- HTML
+- CSS
+- JavaScript
+
+と回を分けますが、どうしても全部からんでくる。
+
+というわけで、「それだけ」とはならないと思います
+
 

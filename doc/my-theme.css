@@ -27,6 +27,38 @@
         margin-top: .25em;
     }
 
+    .reveal h1.docTitle {
+        border-top: 2px solid #000;
+        padding: 10px 0;
+        line-height: 1;
+    }
+    .reveal h1.docTitle span {
+        position: relative;
+        display: block;
+        margin: 10px;
+        padding: 0;
+        line-height: 1;
+        background: red;
+        vertical-align: top;
+    }
+    .reveal h1.docTitle span::before,
+    .reveal h1.docTitle span::after {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 10%;
+        height: 2px;
+        background: #000;
+        line-height: 1;
+    }
+    .reveal h1.docTitle span::before {
+        top: 0;
+        left: 0;
+    }
+    .reveal h1.docTitle span::after {
+        top: 0;
+        right: 0;
+    }
 
         /*data-pdf-page-number="0"*/
     /* .reveal h2 {color: red;}
