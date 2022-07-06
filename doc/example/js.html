@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript</title>
+
+<script>
+/**
+ * 変数スコープ
+ */
+
+// グローバルスコープ
+g_x = 1;
+var g_y = 1;
+let g_z = 1;
+
+	function valTest() {
+		f_x = 2;
+		var f_y = 2;
+		let f_z = 2;
+		if (true) {
+			var foo = `bar`;
+		}
+		console.log(foo); // "bar"
+	}
+
+
+	valTest();
+
+console.log(f_x);
+//console.log(f_y);
+
+
+	a = [1,2,3];
+
+	a.forEach(function (value) {
+
+		//console.log(value);
+
+	});
+
+	var sum = 0;
+	//console.log(sum);
+	//「map」で試した例
+	a.map(function (value) {
+		sum = sum + value;
+		//console.log(sum);
+
+	});
+
+</script>
+
+</head>
+
+<body>
+</body>
+
+</html>

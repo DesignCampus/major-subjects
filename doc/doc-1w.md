@@ -3,11 +3,11 @@ theme: "simple"
 customTheme : "my-theme"
 transition: "convex"
 slideNumber: false
-title: "コーディング 2nd Season 1w - HTML"
+title: "コーディング 2nd Season 1w - 今どきのWeb制作"
 ---
 
 # コーディング  2nd Season
-## 1週目「HTML」
+## 1週目「今どきのWeb制作」
 <img src="./img/logo_bg_none.png" style="width: 16%;">
 
 ---
