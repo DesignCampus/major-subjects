@@ -11,43 +11,76 @@
  */
 
 // グローバルスコープ
-g_x = 1;
-var g_y = 1;
-let g_z = 1;
+g_undeclared = "どこからでも参照";
+console.log(g_undeclared);
 
-	function valTest() {
-		f_x = 2;
-		var f_y = 2;
-		let f_z = 2;
-		if (true) {
-			var foo = `bar`;
-		}
-		console.log(foo); // "bar"
-	}
+// function scopeTest() {
+// 	f_undeclared = "関数の中で作成してもグローバル";
+// 	var f_var = "関数の中でvar";
+// 	let f_let = "関数の中でlet";
+// 	if (true) {
+// 		let b_let = "Letはブロックスコープ";
+// 		console.log(b_let);
+// 	}
+// 	//console.log(b_let);
+// }
+// scopeTest();
 
-
-	valTest();
-
-console.log(f_x);
-//console.log(f_y);
+// console.log(b_let);
 
 
-	a = [1,2,3];
+/**
+ * 配列
+ */
 
-	a.forEach(function (value) {
 
-		//console.log(value);
+// wardrobe = ["Tシャツ", "パンツ", "靴下"];
+// console.log(wardrobe);
+// console.log(wardrobe[0]);
 
-	});
+// console.log(wardrobe.length);
 
-	var sum = 0;
-	//console.log(sum);
-	//「map」で試した例
-	a.map(function (value) {
-		sum = sum + value;
-		//console.log(sum);
+// wardrobe.push("ズボン");
+// console.log(wardrobe);
 
-	});
+// wardrobe.pop();
+// console.log(wardrobe);
+
+
+
+// wardrobe.forEach(function(value) {
+// 	console.log(value);
+// });
+
+// wardrobe.map(function(value) {
+// 	console.log(value);
+// });
+
+// const sumData = [1,2,3,4,5,6,7,8,9];
+// let sum = 0;
+
+// sumData.map(function (value) {
+// 	sum = sum + value;
+// });
+
+// console.log(sum);
+
+
+/**
+ * API
+ */
+
+// var url = 'https://api.aoikujira.com/zip/zip.php?fmt=json&zn=192-0084';
+// fetch(url)
+// 	.then(function (response) {
+// 		const jsonData = response.json();
+// 		return jsonData;
+// 	})
+// 	.then(function (address) {
+// 		console.log(address);
+// 	});
+
+
 
 </script>
 
