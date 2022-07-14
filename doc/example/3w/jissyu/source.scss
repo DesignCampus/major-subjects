@@ -1,0 +1,70 @@
+//@use 'ex01';
+//@use 'ex02';
+
+.demo01 {
+    p {color: red;}
+    span {color: blue;}
+}
+.demo02 {
+    &_pra {background: green;}
+}
+
+.demo01 {
+    p {color: red;}
+    @media only screen and (max-width: 640px) {
+        p {color: yellow;}
+    }
+}
+
+
+.demo01 {
+    padding: 1rem;
+    background: gray;
+}
+.demo02 {
+    @extend .demo01;
+    border: 1px solid black;
+}
+
+@mixin borderRadius($radius: 8px) {
+    border-radius: $radius;
+}
+
+.demo01 {
+    @include borderRadius();
+}
+.demo02 {
+    @include borderRadius(16px);
+}
+
+$baseColor: #3FC9CA;
+
+.demo01 {
+    background: $baseColor;
+}
+.demo02 {
+    background: lighten($baseColor, 10);
+}
+
+$breakpoint: (
+  tab: 'screen and (min-width: 600px)',
+  pc: 'screen and (min-width: 1000px)'
+);
+
+@mixin mq($bp) {
+  @media #{map-get($breakpoint, $bp)} {
+   @content;
+  }
+}
+
+.demo02 {
+   @include mq(pc) { background: white; }
+}
+
+@function pxToRem($px, $baseSize: 16) {
+    @return $px / $baseSize * 1rem;
+}
+
+.demo02 {
+    font-size: pxToRem(24);
+}

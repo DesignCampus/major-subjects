@@ -1,0 +1,54 @@
+.demo01 p, .demo02 p {
+  color: red;
+}
+.demo01 span, .demo02 span {
+  color: blue;
+}
+
+.demo02_pra {
+  background: green;
+}
+
+.demo01 p, .demo02 p {
+  color: red;
+}
+@media only screen and (max-width: 640px) {
+  .demo01 p, .demo02 p {
+    color: yellow;
+  }
+}
+
+.demo01, .demo02 {
+  padding: 1rem;
+  background: gray;
+}
+
+.demo02 {
+  border: 1px solid black;
+}
+
+.demo01, .demo02 {
+  border-radius: 8px;
+}
+
+.demo02 {
+  border-radius: 16px;
+}
+
+.demo01, .demo02 {
+  background: #3FC9CA;
+}
+
+.demo02 {
+  background: #67d4d5;
+}
+
+@media screen and (min-width: 1000px) {
+  .demo02 {
+    background: white;
+  }
+}
+
+.demo02 {
+  font-size: 1.5rem;
+}
