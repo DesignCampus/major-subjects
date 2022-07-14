@@ -445,25 +445,41 @@ $breakpoint: (
 
 --
 
-設計を考えて発表する
+実習課題を完成させる
 
 --
 
 ### 予告
 
-次週はCSSのお話し
+--
 
-SCSSも試したい。  
-Preprosをインストールしておいてください。
+次週はHTMLのお話し  
 
-以下のようなファイルも用意していおいてください。
+あとは実習課題をサーバーにアップ。  
+みんなに見てもらいながら発表しましょう
+
+--
+
+#### Xfreeサーバーに関して
+
+--
+
+SVGを使っている場合は.htaccessに以下を追加
 
 ```txt
-
-[jissyu]（任意のフォルダ）
-├ style.css
-├ sorce.scss
-└ index.html
-
+AddType image/svg+xml .svg .svgz
+AddEncoding gzip .svgz
 ```
 
+--
+
+あとはそもそもファイル名に日本語とか2バイト文字使っちゃだめよ
+
+--
+
+それではまた来週を楽しみにしています！
+
+note:
+https://design-campus.net/practice/ts-0/ikeda/
+https://design-campus.net/practice/ts-0/kuwabara/
+https://design-campus.net/practice/ts-0/yoshino/
