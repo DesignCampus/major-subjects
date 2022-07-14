@@ -138,6 +138,10 @@ https://tinypng.com/
 
 --
 
+SASS記法とSCSS記法がある  
+※ファイルの拡張子も.sassと.scssでわける
+--
+
 Node.jsやらNPMやらをコマンドラインで
 <p><img src="./img/3w/cli_ss.png" style="width: 75%;"><p/>
 
@@ -183,7 +187,7 @@ Node.jsやらNPMやらをコマンドラインで
 
 ---
 
-#### SCSSって便利、その１
+#### Sassって便利、その１
 入れ子（ネスト）
 
 --
@@ -202,6 +206,25 @@ Node.jsやらNPMやらをコマンドラインで
 .demo01 p {color: red;}
 .demo01 span {color: blue;}
 .demo02_pra {background: green;}
+```
+
+--
+
+参考：SASS記法
+
+```sass
+
+.demo01
+    p
+        color: red
+    span
+        color: blue
+
+.demo02
+    &_pra
+        background: green
+
+
 ```
 
 --
@@ -227,7 +250,7 @@ Node.jsやらNPMやらをコマンドラインで
 
 ---
 
-#### SCSSって便利、その2
+#### Sassって便利、その2
 @extend(継承)
 
 --
@@ -257,7 +280,7 @@ Node.jsやらNPMやらをコマンドラインで
 
 ---
 
-#### SCSSって便利、その3
+#### Sassって便利、その3
 @mixin
 
 --
@@ -312,7 +335,7 @@ Node.jsやらNPMやらをコマンドラインで
 
 ---
 
-#### SCSSって便利、その4
+#### Sassって便利、その4
 いろんな色
 
 --
@@ -344,7 +367,7 @@ $baseColor: #3FC9CA;
 
 ---
 
-#### SCSSって便利、その5
+#### Sassって便利、その5
 別のファイルを読み込んでひとつのファイルに
 
 --
@@ -362,7 +385,7 @@ $baseColor: #3FC9CA;
 
 ---
 
-#### SCSSって便利、その6
+#### Sassって便利、その6
 他にもいろいろ便利な機能があるから、調べてみて
 
 --
