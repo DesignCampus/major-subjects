@@ -478,8 +478,3 @@ AddEncoding gzip .svgz
 --
 
 それではまた来週を楽しみにしています！
-
-note:
-https://design-campus.net/practice/ts-0/ikeda/
-https://design-campus.net/practice/ts-0/kuwabara/
-https://design-campus.net/practice/ts-0/yoshino/

@@ -5,19 +5,83 @@
 
 <title></title>
 
-<link rel="stylesheet" href="./style.css">
+<!-- <link rel="stylesheet" href="./style.css"> -->
 
 </head>
 
 <body>
-
-	<div class="demo01">
+	<!-- <div class="demo01">
 		<p>Sass</p>
 		<span>Scss</span>
 	</div>
 	<div class="demo02">
 		<p class="demo02_pra">demo</p>
-	</div>
+	</div> -->
+
+	<!-- ==================== 4w ==================== -->
+
+	<!-- details -->
+	<details>
+		<summary>徒然草</summary>
+		つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、そこはかとなく書きつくれば、あやしうこそものぐるほしけれ
+	</details>
+
+	<hr>
+
+	<!-- dialog -->
+	<dialog>
+		ダイアログだよ
+	</dialog>
+
+	<button id="js-dialogToggle">dialog</button>
+
+	<style>
+		dialog::backdrop {
+			background-color: rgba(0, 0, 0, .7);
+		}
+	</style>
+
+	<script>
+		const modal = document.querySelector('dialog');
+		const modalButton = document.getElementById('js-dialogToggle')
+
+		modalButton.addEventListener('click', () => {
+			modal.showModal();
+			//modal.show();
+		})
+		modal.addEventListener('click', () => {
+			modal.close('閉じた');
+			console.log(modal.returnValue);
+		});
+	</script>
+
+
+	<hr>
+
+	<!-- template -->
+	<button id="js-template">template</button>
+
+	<template id="template">
+		<div class="modal">
+			<div class="modal_img"><img src="https://placehold.jp/150x150.png" alt=""></div>
+			<div class="modal_txt">作品名作品名作品名作品名作品名</div>
+		</div>
+	</template>
+	
+	<script>
+
+		const templateButton = document.getElementById('js-template')
+
+		templateButton.addEventListener('click', () => {
+			var template = document.getElementById('template');
+			// template要素の内容を複製
+			var clone = template.content.cloneNode(true);
+			// 複製したものを追加
+			document.querySelector('body').appendChild(clone);
+		})
+
+
+	</script>
 
 </body>
 

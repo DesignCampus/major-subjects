@@ -60,6 +60,15 @@
         right: 0;
     }
 
+
+    .reveal .notes {
+        font-size: .9rem;
+    }
+
+    .reveal .code-wrapper {
+        font-size: .7em;
+    }
+
         /*data-pdf-page-number="0"*/
     /* .reveal h2 {color: red;}
     body.reveal-viewport {
